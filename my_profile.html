@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://localhost:3333/?css=my_profile.css">
+  <link rel="stylesheet" href="http://localhost:3333/?css=landingpage.css">
+  
+  <script src="https://kit.fontawesome.com/6a60d80baf.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+  <div class="container">
+    
+    <div class="navbar">
+      <div class="header">
+        <a href = "/landingpage"><img class="logo" src="http://localhost:3333/?png=logo.png" width="35%" alt="WorkFolio Logo"/></a>
+      
+          <ul>
+              <li>
+                  <div class="searchbox">
+                      <input type = "text" placeholder = "Search" class = "searchtext">
+                      <a href = "#" id = "search"><i id="top" class="fa-solid fa-magnifying-glass"></i></a>
+                  </div> 
+              </li>
+              <li> <a href = "#"> <i id="top" class="fa-regular fa-user"></i></a> </li>
+          </ul>
+      </div>
+
+      <div class = "dashboard">
+          <ul>
+      
+            <li><a href = "/graphicaldesigning">Graphic Designing</a></li>
+            <li><a href = "/business">Business</a></li>
+            <li><a href = "/programming">Programming</a></li>
+            <li><a href = "/technical">Technical</a></li>  
+            <li><a href = "/marketing">Marketing</a></li>
+          
+          </ul>
+      </div> 
+  </div>   
+  
+    <div class="profile-container">
+      <div class="img-container">
+      <img src="http://localhost:3333/?png=man1.jpg" alt="Profile picture" width="300" height="300">
+      </div>
+      <div class="info-container">
+        <p class="info-label">Name:</p>
+        <p class="info" id="user-name" >Dazai Osuman</p>
+        <p class="info-label">Email:</p>
+        <p class="info" id="user-email" >do@gmail.com</p>
+        <p class="info-label" >country:</p>
+        <p class="info" id="user-country" >Sharjah, Abu Shagarah</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="sub-services">
+    <h1>Services Subscription</h1>
+    <ul class="service-list">
+      <li class="service-item">
+        <div class="service-card">
+          <div class="img-container">
+            <img src="http://localhost:3333/?jpg=images.jpg" alt="Service picture" width="200" height="200">
+          </div>
+          <div class="service-details">
+            <p class="service-title" >
+               <label id = "sub-title1"> </label> 
+            </p>
+            <p class="service-status">ONGOING/FINISH</p>
+            <div class="service-info">
+              <p class="detail-label">Name:</p>
+              <p class="detail-info" id="sub-name1"></p>
+              <p class="detail-label">Description:</p>
+              <p class="detail-info" id="sub-descr1"></p>
+              <p class="detail-label">Payment plan and price:</p>
+              <p class="detail-info" id="sub-price1"></p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <!-- Repeat for other service items -->
+      <li class="service-item">
+        <div class="service-card">
+          <div class="img-container">
+            <img src="http://localhost:3333/?jpg=images.jpg" alt="Service picture" width="200" height="200">
+          </div>
+            <div class="service-details">
+              <p class="service-title" >
+                <label id = "sub-title2"> </label> 
+              </p>
+              <p class="service-status">ONGOING/FINISH</p>
+              <div class="service-info">
+                <p class="detail-label">Name:</p>
+                <p class="detail-info" id="sub-name2"></p>
+                <p class="detail-label">Description:</p>
+                <p class="detail-info" id="sub-descr2"></p>
+                <p class="detail-label">Payment plan and price:</p>
+                <p class="detail-info" id="sub-price2"></p>
+              </div>
+          </div>
+          
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="logout">
+    <form action="Login">
+      <button type="submit" class="logout-button">Log out</button>
+    </form>
+  </div>
+</body>
+</html>

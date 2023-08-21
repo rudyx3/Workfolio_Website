@@ -1,0 +1,15 @@
+{
+
+    "CountryList": [
+
+        {
+            "id": "1",
+            "name": "Dubai"
+        },
+        {
+            "id": "2",
+            "name": "Abu Dhabi"
+        }
+
+    ]
+}

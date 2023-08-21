@@ -1,0 +1,304 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+    
+  margin : 0;
+  padding : 0;
+  background-color: #363732;
+  /*background: linear-gradient(to left top, #363732, #363732); */
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.container{
+
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.navbar{
+  position: relative;
+  width: 100%;
+  height: 130px;
+  background-color: #50B2C0;
+}
+
+.searchbox{
+  position:relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right : -10px;
+
+
+}
+
+.searchtext{
+
+  border : 0px;
+  border-radius: 55px;
+  border: none;
+  outline: none;
+  width: 0px;
+
+ 
+  transition: all 0.5s linear;
+  margin-bottom: 1px;
+  color: #363732;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-right: 25px;
+  padding-top:10px;
+  padding-bottom: 10px;
+
+}
+
+.searchbox a{
+
+  position: absolute ;
+  right: 1rem;
+  display: grid;
+  place-items: center;
+  margin-top: -2px;
+  margin-right: -3px;
+
+}
+
+.searchbox:hover > .searchtext{
+  width: 200px;
+  padding-left: 30px;
+  padding: 10px;
+}
+
+.header{
+
+  width: 95%;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+  background-color:#50B2C0;
+}
+
+.header ul li{
+
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.header ul li a{
+
+  text-decoration: none;
+  color: #363732;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.dashboard{
+  width: 100%;
+  max-width: 755px;
+  margin: auto;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  height: 10px;
+}
+
+.dashboard ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
+}
+
+.dashboard ul li a{
+
+  text-decoration: none;
+  color: #363732;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.dashboard ul li a::after{
+
+  content: '';
+  height:3px;
+  width:0;
+  background-color: #363732;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  transition: 0.8s;
+}
+
+.dashboard ul li a:hover::after{
+  width: 100%;
+}
+
+hr{
+  margin-top: 0px;
+  border: 2px solid white;
+}
+
+/* Nav bar ends here */
+
+html, body {
+  height: 100%;
+}
+
+.container2 {
+  height: 100%;
+  overflow-y: auto;
+  position: relative;
+}
+
+.profile-container {
+  background-color: rgb(205, 236, 236);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5%;
+  width: 50%;
+  height: 40%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.img-container {
+  padding-right: 15%;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+}
+
+.info-label {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.info {
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.sub-services {
+  position: relative;
+  padding-left: 12%;
+  padding-bottom: 20%;
+
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 20px;
+}
+
+.service-item {
+  gap: 90px;
+}
+
+.service-card img {
+  display: flex;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.service-card {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-right: 20px;
+  width: 400px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li {
+  float: left;
+}
+
+.service-details {
+  margin-top: auto;
+}
+
+.service-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+}
+
+.service-status {
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.service-details {
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.detail-label {
+  font-weight: bold;
+}
+
+.detail-info {
+  margin: 0;
+}
+
+.logout {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.logout-button {
+  background-color: rgb(205, 236, 236);
+  color: black;
+  padding: 10px 20px;
+  border-color: #50B2C0;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 80px;
+  margin-bottom: 100px;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(205, 236, 236);;
+}
+
+h1 {
+  color: aliceblue;
+  margin-top: 70px ;
+  margin-bottom: 35px;
+  margin-left: 25px;
+}

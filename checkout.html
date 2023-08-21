@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Menu</title>
+    <script src="checkout_js.js"></script>
+    <script src="https://kit.fontawesome.com/6a60d80baf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="http://localhost:3333/?css=checkout_styles.css">
+    <link rel="stylesheet" href="http://localhost:3333/?css=landingpage.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="navbar">
+            <div class="header">
+                <a href = "/landingpage">
+                    <img src="http://localhost:3333/?png=logo.png" width="35%" alt="WorkFolio Logo"/>
+                </a>
+                
+            
+                <ul>
+                    <li>
+                        <div class="searchbox">
+                            <input type = "text" placeholder = "Search" class = "searchtext">
+                            <a href = "#" id = "search"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </div> 
+                    </li>
+                    <li> <a href = "/profile"> <i class="fa-regular fa-user"></i></a> </li>
+                </ul>
+            </div>
+    
+            <div class = "dashboard">
+                <ul>
+            
+                    <li><a href = "Graphical_Designing.html">Graphic Designing</a></li>
+                    <li><a href = "Business.html">Business</a></li>
+                    <li><a href = "Programming.html">Programming</a></li>
+                    <li><a href = "Technical.html">Technical</a></li>  
+                    <li><a href = "Marketing.html">Marketing</a></li>
+                
+                </ul>
+            </div> 
+        </div>  
+        <!--End of the menu header nav bar --> 
+        <div class="middle_container">
+            <div class="checkOut">
+                <h2>
+                    check Out Page
+                </h2>
+                <table id="myTable">
+
+                    <hr>
+                </table>
+                <p class="detail-label"><b>Name:</b></p>
+                <p class="detail-info" id="sub-name2"> Johny Jenkins</p>
+                <p class="detail-label"><b>Description:</b></p>
+                <p class="detail-info" id="sub-descr2"> I can provide outsider view and guidance for your current project </p>
+                <p class="detail-label"><b>Payment plan and price:</b></p>
+                <p class="detail-info" id="sub-price2"> 420 AED Additional Package</p>
+            </div>
+            <div class="summary-card">
+                <h3>Order Summary</h3>
+                <ul>
+                  <li>
+                    <span class="item-name"> Johny Jenkins </span>
+                    <span class="item-price"> 420 AED Additional Package </span>
+                  </li>
+                  <li>
+                    <span class="item-name"> </span>
+                    <span class="item-price"> 9 AED Tax</span>
+                  </li>
+                  <!-- Add more list items for each product -->
+                </ul>
+                <hr>
+                <div class="total">
+                  <span>Total:</span>
+                  <span class="total-price"> 429 AED </span>
+                </div>
+                <a href = "/landingpage" >
+
+                    <button type="submit" class="checkout-btn">Done</button>
+                  </a>
+              </div> 
+        </div>
+       
+    </div>
+     </body>
+</html>
+

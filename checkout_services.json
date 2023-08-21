@@ -1,0 +1,34 @@
+{
+  "services": [
+    {
+      "name": "Web Development",
+      "description": "Professional website development using modern technologies.",
+      "price": "150.00",
+      "image": "download (1).jpg"
+    },
+    {
+      "name": "Logo Design",
+      "description": "Unique and creative logo design for your business.",
+      "price": "50.00",
+      "image": "download (1).jpg"
+    },
+    {
+      "name": "Content Writing",
+      "description": "Engaging and SEO-friendly content writing services.",
+      "price": "30.00",
+      "image": "download (1).jpg"
+    },
+    {
+      "name": "Social Media Marketing",
+      "description": "Strategic social media marketing campaigns for brand awareness.",
+      "price": "80.00",
+      "image": "download (1).jpg"
+    },
+    {
+      "name": "Graphic Design",
+      "description": "Creative graphic design solutions for your business needs.",
+      "price": "60.00",
+      "image": "download (1).jpg"
+    }
+  ]
+}

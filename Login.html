@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Website</title>
+    <link rel = "stylesheet" href = "http://localhost:3333/?css=style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6a60d80baf.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="Layout">
+            <h1 id="title"> Login  </h1>
+            <p id="demo_error_message" class="errorMessage"></p>
+            <form action="Login" method="POST">
+                <div class="textfield">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="email" name="username" id="username" placeholder="Email" required>
+                </div>
+                <div class="textfield" id="pass">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                </div>
+
+                <div class="links">
+                    <p><a href="forgotpass.html" id="forgotpass">Forgot Password?</a></p>
+                    <p><a href="signup" id="signupbtn">Don't have an account?
+                </div>
+                <div class="loginbtn" id="loginbtnn">
+                    <p><a href="#" id="login"></a></p>
+                </div>
+                <div class="button1">
+                    <!--<a href="landingpage.html"><button type="button" id="signinbtn"> LOGIN</button></a>-->
+                    <input type="submit" id="signinbtn"  value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="http://localhost:3333/?js=index.js">
+        
+    </script>
+
+
+
+</body>
+</html>

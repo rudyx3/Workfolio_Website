@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>services</title>
+    <link rel="stylesheet" href="specific_service.css">
+    <script src="https://kit.fontawesome.com/6a60d80baf.js" crossorigin="anonymous"></script>
+
+   
+  
+</head>
+<body>
+    <div class="container">
+      <div class="navbar">
+        <div class="header">
+            
+          <a href="/landing" >
+            <img src="http://localhost:3333/?png=logo.png" width="35%" alt="WorkFolio Logo"/>
+          </a>
+            <ul>
+                <li>
+                    <div class="searchbox">
+                        <input type = "text" placeholder = "Search" class = "searchtext">
+                        <a href = "#" id = "search"><i id="top" class="fa-solid fa-magnifying-glass"></i></a>
+                    </div> 
+                </li>
+                <li> <a href = "Profile"> <i id="top" class="fa-regular fa-user"></i></a> </li>
+            </ul>
+        </div>
+
+        <div class = "dashboard">
+            <ul>
+        
+                <li><a href = "/graphicaldesigning">Graphic Designing</a></li>
+                <li><a href = "/business">Business</a></li>
+                <li><a href = "/programming">Programming</a></li>
+                <li><a href = "/technical">Technical</a></li>  
+                <li><a href = "/Marketing">Marketing</a></li>
+            
+            </ul>
+        </div> 
+    </div>  
+    <!--End of the menu header nav bar -->
+
+    </div>
+
+    <div class="container">
+      <div class="image-container">
+        <img src="http://localhost:3333/?jpg=woman6.jpg" alt="Product Image" class="image">
+        
+        <div class="description-container">
+          <h2>Eliy Summer-Robotics</h2>
+          <div class="rating-scale">
+              <p>Rating:
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i> 3.3
+            </p>
+          </div>
+          <h3>I can help you in completing you're robotics project while also providing guidance.</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="package-system">
+        <div class="tile selected-tab" id="basic" onclick="selectPackage('basic')">
+          <h3>Basic Package </h3>
+          <p class="center"><li>Creating content and posting for your business</li></p>
+          <p class="center"><li class="grey-bullet">Replying to customers and Community Management</li></p>
+          <p class="center"><li class="grey-bullet">Analytic study and Educated advice</li></p>
+          <p class="center">310 AED</p>
+
+
+        </div>
+        <div class="tile" id="additional" onclick="selectPackage('additional')">
+          <h3>Additional Package</h3>
+          <p class="center"><li>Creating content and posting for your business</li></p>
+          <p class="center"><li>Replying to customers and Community Management</li></p>
+          <p class="center"><li class="grey-bullet">Analytic study and Educated advice</li></p>
+          <p class="center" class="price">420 AED</p>
+
+        </div>
+        <div class="tile" id="all" onclick="selectPackage('all')">
+          <h3>All-Inclusive Package</h3>
+          <p class="center"><li>Creating content and posting for your business</li></p>
+          <p class="center"><li>Replying to customers and Community Management</li></p>
+          <p class="center"><li>Analytic study and Educated advice</li></p>
+          <p class="center" class="price">600 AED</p>
+
+        </div>
+      </div>
+      <div class="continue-button-container">
+        <form action="checkout.html">
+          <button type="submit" class="continue-button">Continue</button>
+        </form>
+        
+      </div>
+      <div class="seller-description">
+        <h2>My Portfolio</h2>
+        <p>I am an experienced web developer with over 10 years of experience. I specialize in creating responsive and user-friendly websites for businesses of all sizes. Feel <br> 
+          free to contact me for any inquiries or project requests.</p>
+      </div>
+    </div>
+
+    <script>
+      function selectPackage(packageId) {
+        const tiles = document.querySelectorAll('.tile');
+        tiles.forEach((tile) => {
+          if (tile.id === packageId) {
+            tile.classList.add('selected-tab');
+          } else {
+            tile.classList.remove('selected-tab');
+          }
+        });
+      }
+    </script>
+</body>
+</html>
+

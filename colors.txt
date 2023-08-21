@@ -1,0 +1,5 @@
+--black-olive: #363732ff;
+--vivid-sky-blue: #53d8fbff;
+--maya-blue: #66c3ffff;
+--alice-blue: #dce1e9ff;
+--orchid-pink: #d4afb9ff;

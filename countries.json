@@ -1,0 +1,30 @@
+
+{
+    
+    "CountryList": [
+        {
+            "id": "1",
+            "name": "Saudi Arabia"
+        },
+        {
+            "id": "2",
+            "name": "Kuwait"
+        },
+        {
+            "id": "3",
+            "name": "United Arab Emirates"
+        },
+        {
+            "id": "4",
+            "name": "Qatar"
+        },
+        {
+            "id": "5",
+            "name": "Oman"
+        },
+        {
+            "id": "6",
+            "name": "Bahrain"
+        }
+    ]       
+}
